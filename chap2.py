@@ -1,4 +1,6 @@
+
 a, b, c, d, e, f, g, h = range(8)
+
 N = [
     {b, c, d, e, f},    # a
     {c, e},             # b
@@ -9,4 +11,5 @@ N = [
     {f, h},             # g
     {f, g}              # h
 ]
+
 print(N)
